@@ -1,0 +1,35 @@
+ 
+
+body{
+    margin: 0;
+    height: 80vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-family: sans-serif;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+}
+ 
+h2 {
+    font-size: 4rem;
+     
+}
+
+span{
+    color: brown;
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+span::after{
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 55px;
+    background-color: brown;
+    margin-left: 4px;
+}
+
